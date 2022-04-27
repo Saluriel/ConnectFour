@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+</head>
+<body>
+    <form>
+        <label for = movie>Movie Name:</label>
+        <input type ="text" id = "movie" minlength = "2">
+        <label for = rating>Rating:</label>
+        <input type ="number" id = "rating" min = "0" max = "10">
+        <input type = "submit" value = "Submit">
+    </form>
+
+    <ul id = 'movie-list'></ul>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="movies.js"></script>
+
+</html>
