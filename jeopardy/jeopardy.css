@@ -1,0 +1,36 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+#jeopardy {
+  background-color:#060ce9;
+  color: white;
+  width: 75%
+}
+
+table, th, td {
+  border: 1px solid white;
+  height: 75px;
+  
+  table-layout: fixed;
+  
+}
+
+/* https://www.w3schools.com/howto/howto_css_loader.asp */
+#loader {
+  border: 16px solid lightgray;
+  border-top: 16px solid #115ff4;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
